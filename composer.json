@@ -1,0 +1,23 @@
+{
+    "name": "lukaswhite/auto-no-follow",
+    "description": "Automatically add rel=nofollow to links in HTML, using PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lukaswhite",
+            "email": "hello@lukaswhite.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "7.0",
+        "phpunit/php-code-coverage": "^6.0",
+        "zalas/phpunit-globals": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lukaswhite\\AutoNoFollow\\": "src/"
+        }
+    }
+}
